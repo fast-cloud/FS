@@ -1,7 +1,7 @@
 #!/bin/bash
  
 # 下载 FS.zip 到 /tmp/ 目录
-wget -P /tmp/ https://example.com/path/to/FS.zip
+wget -P /tmp/ https://github.com/fast-cloud/FS/blob/main/FS.zip
  
 # 检查下载是否成功
 if [ $? -ne 0 ]; then
